@@ -1,13 +1,12 @@
 .card {
+    background: #ffffff;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 250px;
     border-radius: 15px;
     gap: 20px;
-    padding: 18px;
     box-shadow: 0 8px 22px rgba(0, 0, 0, 0.6);
     transition: 0.3s;
 }
@@ -23,7 +22,7 @@
     color: white;
     font-size: 12px;
     font-weight: bold;
-    padding: 4px 8px;
+    padding: 8px 15px;
     border-radius: 999px;
     background: black;
 }
@@ -46,10 +45,11 @@
 
 .informacao {
     padding: 15px;
+    text-align: center;
 }
 
 .imagem {
-    width: 100%;
+    width: 210px;
     background: black;
     height: 200px;
     display: flex;
@@ -58,4 +58,15 @@
     color: white;
     padding: 5px;
     border-radius: 20px;
+}
+
+.nome{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.preco{
+    color: #ff7a00;
+    font-size: 20px;
 }

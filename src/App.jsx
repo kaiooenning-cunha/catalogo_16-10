@@ -1,5 +1,6 @@
 import Card from "./components/Card"
 import Header from "./components/Header"
+import "./styles/styles.css"
 
 function App() {
 
@@ -31,6 +32,13 @@ function App() {
       preco: 199.90,
       imagem: "FONE",
       categoria: "Áudio"
+    },
+    {
+      id: 5,
+      nome: "Notebook",
+      preco: 5999.90,
+      imagem: "Notebbok",
+      categoria: "Promoção"
     }
   ]
   return (
